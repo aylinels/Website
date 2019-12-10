@@ -1,0 +1,118 @@
+#body {
+  font-family: 'Bebas Neue', cursive;
+  margin: 0;
+  cursor: url("img/red-circle.png"), pointer;
+}
+
+.title {
+  display: inline-block;
+  width: 200px;
+  padding-left: 10px;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+a:hover {
+  background-color: red;
+  color: white;
+  padding: 0 10px;
+}
+
+p {
+  position: absolute;
+  top: 350px;
+  font-size: 50px;
+  background-color: red;
+  color: white;
+  width: 100%;
+  padding-left: 10px;
+}
+
+img {
+  position: relative;
+  height: 300px;
+  width: 400px;
+  top: 400px;
+  padding: 6px;
+}
+
+.poster2 {
+  -webkit-filter: grayscale(100%);
+  filter: grayscale(100%);
+}
+
+.section {
+  position: relative;
+  font-size: 50px;
+  top: 100px;
+  text-decoration: none;
+  color: white;
+}
+
+#section1 {
+  position: relative;
+  top: 50px;
+  background-color: red;
+  margin: -5px;
+  padding-left: 10px;
+  transform: rotate(-2deg);
+}
+
+#section2 {
+  position: relative;
+  top: 180px;
+  background-color: red;
+  margin: -10px;
+  padding-left: 10px;
+  transform: rotate(6deg);
+}
+
+#section3 {
+  position: relative;
+  top: 300px;
+  background-color: red;
+  margin: -5px;
+  padding-left: 10px;
+  transform: rotate(-1deg);
+}
+
+#india {
+  position: absolute;
+  text-align: right;
+  top: 900px;
+  left: 1050px;
+  width: 150px;
+  font-size: 20px;
+  color: black;
+  background-color: transparent;
+}
+
+#LA {
+  position: absolute;
+  text-align: right;
+  top: 800px;
+  left: 960px;
+  width: 240px;
+  font-size: 20px;
+  color: black;
+  background-color: transparent;
+}
+
+.exhibit2 {
+  position: absolute;
+  top: 800px;
+}
+
+#los-angeles {
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 18px;
+  color: black;
+  width: 400px;
+  left: 410px;
+  top: 710px;
+  text-align: justify;
+  background-color: transparent;
+}

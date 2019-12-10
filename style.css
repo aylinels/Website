@@ -1,0 +1,61 @@
+#body {
+  font-family: 'Bebas Neue';
+  margin: 0;
+  cursor: url("img/red-circle.png"), pointer;
+}
+
+.container {
+  display: inline-block;
+}
+
+.title {
+  display: inline-block;
+  width: 200px;
+  padding-left: 10px;
+  }
+
+a{
+    text-decoration: none;
+    color: black;
+  }
+
+a:hover{
+  background-color:red;
+
+}
+
+p {
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 12px;
+}
+
+.paragraph {
+  text-align: justify;
+  position: relative;
+  left: 800px;
+  top: -50px;
+  height: 200px;
+  width: 350px;
+}
+
+img {
+  position: relative;
+  height: 500px;
+  left: 50px;
+  top: 100px;
+}
+
+.logo{
+  position: absolute;
+  height: 500px;
+  left: 92%;
+  top: 0;
+}
+
+.rectangle:hover {
+  background-color: #e41f1f;
+  height: 30px;
+  width: 70px;
+  margin-left: auto;
+  margin-right: auto;
+}

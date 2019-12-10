@@ -1,0 +1,109 @@
+#body {
+  font-family: 'Bebas Neue', cursive;
+  margin: 0;
+  cursor: url("img/red-circle.png"), pointer;
+}
+
+.title {
+  display: inline-block;
+  width: 200px;
+  padding-left: 10px;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+a:hover {
+  background-color: red;
+  color: white;
+  padding: 0 10px;
+}
+
+#paragraph {
+  position: absolute;
+  top: 350px;
+  font-size: 50px;
+  color: white;
+  width: 100%;
+  padding-left: 10px;
+  }
+#paragraph:hover {
+  background-color: red;
+  color: white;
+  padding: 0 10px;
+}
+
+img {
+  position: relative;
+  display: block;
+  height: 400px;
+  top: 400px;
+  padding: 6px;
+}
+
+#book1 {
+ position: relative;
+ top: 400px;
+ left: 100px;
+}
+
+#book2 {
+ position: relative;
+ height: 600px;
+ top: 600px;
+ left: 500px;
+}
+
+#book3 {
+ position: relative;
+ height: 350px;
+ top: 800px;
+ left: 230px;
+}
+
+.content{
+  position: absolute;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 20px;
+  color: black;
+  width: 600px;
+  top: 700px;
+  left: 450px;
+  text-align: justify;
+  background-color: transparent;
+}
+
+#first {
+  position: relative;
+  top: -200px;
+  left: 100px;
+}
+
+#second {
+  position: relative;
+  width: 400px;
+  top: 100px;
+  left: -400px;
+}
+
+#second-p {
+  position: relative;
+  width: 400px;
+  top: 100px;
+  left: -400px;
+}
+
+#third {
+  position: relative;
+  left: 90px;
+  top: 300px;
+}
+
+#third-p {
+  position: relative;
+  left: 100px;
+  top: 430px;
+  margin-bottom: 50px;
+}
